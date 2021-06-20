@@ -1,0 +1,31 @@
+
+classe no arvore binaria
+	lado esquedo o elemento é menor que o pai
+	lado direito o elemento é maior que o pai
+	não permitir chaves repetidas
+	Object elemento
+	nos: filhoEsquedo,filhoDireito e pai
+	metodos get e set(passando o no)
+	
+	public String toString(){
+		return this.elemento + " ";
+	}
+
+classe arvoreBinariaPesquisa
+	comp =  criar a classe comparador para verificar os dados do elemento a partir do valor padrão predefinido
+	
+	ex.
+	recebendo 2 objetos (a , b) transforma em inteiro
+	verifica se é null um ou os dois valores
+	
+	pesquisar usar o pseudocódigo do slide
+	se o filho esquerdo ou direito for null retornar o no apos a recusividade
+	na hora de inserir precisa saber se ele existe e onde posso inseri-lo 
+
+	remoção verificar os tres casos
+	se não possui filhos esqueda ou na direita
+	  apos isso verificar se é pai
+	
+
+
+
